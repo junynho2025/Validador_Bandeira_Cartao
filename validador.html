@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Bandeiras de Cartão</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input {
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Validador de Bandeiras de Cartão</h1>
+    <input type="text" id="numero" placeholder="Digite um número">
+    <button onclick="exibirResultado()">Validar</button>
+    <p id="resultado"></p>
+    <img id="bandeira-imagem" src="" alt="Bandeira do Cartão" style="display: none; width: 90px; height: auto; margin-top: 10px;">
+
+    <script src="src/validador.js"></script>
+</body>
+</html>
